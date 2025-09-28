@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    internal class Personas {
+    public class Personas {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
 

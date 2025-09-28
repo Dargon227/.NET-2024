@@ -4,7 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DAL.Models
 {
-    internal class Vehiculos
+    public
+        class Vehiculos
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Key]
